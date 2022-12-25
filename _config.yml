@@ -279,7 +279,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+# _posts
 - scope:
     path: ""
     type: posts
@@ -291,4 +291,6 @@ values:
     share: true
     search: true
     related: true
+    sidebar:
+        nav: sidebar
 
